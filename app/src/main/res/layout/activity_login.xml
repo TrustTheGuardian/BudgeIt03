@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/emailPassword"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/usernamepassword"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Forgot password?"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/togglePassword" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="233dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/usernamepassword"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="250dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/anton"
+        android:gravity="top|center"
+        android:text="BUDGEIT"
+        android:textColor="@color/ccaColor"
+        android:textSize="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bawat piso, kontrolado mo!"
+        android:textColor="@color/ccaColor"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/emailLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/signUpText"
+        android:layout_width="43dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="112dp"
+        android:text="Sign Up"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/logInButton" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="145dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="36dp"
+        android:text="Don't have an account yet?"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logInButton" />
+
+    <ImageView
+        android:id="@+id/togglePassword"
+        android:layout_width="34dp"
+        android:layout_height="42dp"
+        android:padding="8dp"
+        android:src="@drawable/visibility_off"
+        app:layout_constraintEnd_toEndOf="@+id/emailPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/emailPassword"
+        app:layout_constraintTop_toTopOf="@+id/emailPassword"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:alpha="10"
+        android:backgroundTint="@color/ccaColor"
+        android:text="Log In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgotPassword" />
+
+    <!-- Default icon -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

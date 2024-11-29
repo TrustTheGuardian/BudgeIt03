@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="List"
+        android:icon="@drawable/clipboard"
+        android:id="@+id/caloriesbottomnav"
+        android:iconTint="@color/black"/>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/user"
+        android:id="@+id/calorieshistorybottomnav"
+        android:iconTint="@color/black"/>
+<!--    <item-->
+<!--        android:title=""-->
+<!--        android:icon="@drawable/notes"-->
+<!--        android:id="@+id/notesbottomnav"-->
+<!--        android:iconTint="@color/black"/>-->
+
+
+</menu>
